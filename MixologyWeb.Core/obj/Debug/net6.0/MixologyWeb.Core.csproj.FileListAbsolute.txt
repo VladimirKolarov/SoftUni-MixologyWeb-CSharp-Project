@@ -1,0 +1,12 @@
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\bin\Debug\net6.0\MixologyWeb.Core.deps.json
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\bin\Debug\net6.0\MixologyWeb.Core.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\bin\Debug\net6.0\MixologyWeb.Core.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.csproj.AssemblyReference.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.AssemblyInfoInputs.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.AssemblyInfo.cs
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.csproj.CoreCompileInputs.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\refint\MixologyWeb.Core.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\ref\MixologyWeb.Core.dll

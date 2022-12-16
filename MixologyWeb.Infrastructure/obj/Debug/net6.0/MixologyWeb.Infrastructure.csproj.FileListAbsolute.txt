@@ -1,0 +1,12 @@
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\bin\Debug\net6.0\MixologyWeb.Infrastructure.deps.json
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\bin\Debug\net6.0\MixologyWeb.Infrastructure.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\bin\Debug\net6.0\MixologyWeb.Infrastructure.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.AssemblyInfo.cs
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\refint\MixologyWeb.Infrastructure.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\MixologyWeb.Infrastructure.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Infrastructure\obj\Debug\net6.0\ref\MixologyWeb.Infrastructure.dll

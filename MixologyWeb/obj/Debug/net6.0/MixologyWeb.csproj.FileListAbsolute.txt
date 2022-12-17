@@ -134,7 +134,6 @@ C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\scopedcss\bundle\MixologyWeb.styles.css
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\scopedcss\projectbundle\MixologyWeb.bundle.scp.css
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\MixologyWeb.csproj.CopyComplete
@@ -143,3 +142,8 @@ C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\MixologyWeb.pdb
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\MixologyWeb.genruntimeconfig.cache
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\ref\MixologyWeb.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\bin\Debug\net6.0\MixologyWeb.Core.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\bin\Debug\net6.0\MixologyWeb.Infrastructure.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\bin\Debug\net6.0\MixologyWeb.Core.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\bin\Debug\net6.0\MixologyWeb.Infrastructure.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutOld.cshtml.rz.scp.css

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MixologyWeb.Core/1.0.0": {
+        "dependencies": {
+          "MixologyWeb.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "MixologyWeb.Core.dll": {}
+        }
+      },
+      "MixologyWeb.Infrastructure/1.0.0": {
+        "runtime": {
+          "MixologyWeb.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MixologyWeb.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MixologyWeb.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

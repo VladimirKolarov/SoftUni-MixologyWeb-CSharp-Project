@@ -948,6 +948,29 @@
             "rid": "win"
           }
         }
+      },
+      "MixologyWeb.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MixologyWeb.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MixologyWeb.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MixologyWeb.Core.dll": {}
+        }
+      },
+      "MixologyWeb.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MixologyWeb.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MixologyWeb.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2437,6 +2460,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MixologyWeb.Core/1.0.0": {
+      "type": "project",
+      "path": "../MixologyWeb.Core/MixologyWeb.Core.csproj",
+      "msbuildProject": "../MixologyWeb.Core/MixologyWeb.Core.csproj"
+    },
+    "MixologyWeb.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../MixologyWeb.Infrastructure/MixologyWeb.Infrastructure.csproj",
+      "msbuildProject": "../MixologyWeb.Infrastructure/MixologyWeb.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2445,7 +2478,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
+      "MixologyWeb.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2454,11 +2488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
       "projectName": "MixologyWeb",
-      "projectPath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
+      "projectPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
       "packagesPath": "C:\\Users\\vladimirkolarov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\obj\\",
+      "outputPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladimirkolarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2474,7 +2508,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj": {
+              "projectPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

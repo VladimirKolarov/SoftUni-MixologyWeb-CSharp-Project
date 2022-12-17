@@ -9,45 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MixologyWeb
 build_property.RootNamespace = MixologyWeb
-build_property.ProjectDir = C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\
+build_property.ProjectDir = C:\Users\vladimirkolarov\source\repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb
+build_property.MSBuildProjectDirectory = C:\Users\vladimirkolarov\source\repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Home/Index.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Home/Privacy.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/Error.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_MainMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_UserMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/_ViewImports.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/_ViewStart.cshtml]
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-qecsjn5gl1
+[C:/Users/vladimirkolarov/source/repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_LayoutOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRPbGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u67nj656dy

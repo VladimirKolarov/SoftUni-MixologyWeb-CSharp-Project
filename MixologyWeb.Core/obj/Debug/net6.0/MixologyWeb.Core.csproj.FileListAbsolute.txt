@@ -10,3 +10,6 @@ C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\refint\MixologyWeb.Core.dll
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.pdb
 C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\ref\MixologyWeb.Core.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\bin\Debug\net6.0\MixologyWeb.Infrastructure.dll
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\bin\Debug\net6.0\MixologyWeb.Infrastructure.pdb
+C:\Users\vladimirkolarov\Source\Repos\VladimirKolarov\SoftUni-MixologyWeb-CSharp-Project\MixologyWeb.Core\obj\Debug\net6.0\MixologyWeb.Core.csproj.CopyComplete

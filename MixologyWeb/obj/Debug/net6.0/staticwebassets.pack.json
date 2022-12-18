@@ -689,6 +689,18 @@
       "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
     },
     {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\plugins\\icheck-bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\plugins\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.js"
     },

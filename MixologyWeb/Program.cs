@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MixologyWeb.Core.Constants;
-using MixologyWeb.Data;
+using MixologyWeb.Infrastructure.Data;
 using MixologyWeb.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);

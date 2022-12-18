@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using MixologyWeb.Core.CustomAttributes;
 
 namespace MixologyWeb.Areas.Identity.Pages.Account
 {
@@ -97,6 +98,13 @@ namespace MixologyWeb.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            
+            //<summary>
+            //    Validation for acceptance of Terms and Condition via a CheckBox
+            //</summary>
+            [Display(Name = "Terms and Conditions")]
+            [CheckBoxRequired(ErrorMessage = "You have to accept the terms and condition in order to register.")]
+            public bool TermsCheckbox { get; set; }
         }
 
 

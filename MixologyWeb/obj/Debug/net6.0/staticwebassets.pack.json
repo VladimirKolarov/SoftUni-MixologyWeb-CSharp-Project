@@ -129,6 +129,14 @@
       "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
     },
     {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\DrinksLogo2.png",
+      "PackagePath": "staticwebassets\\img\\DrinksLogo2.png"
+    },
+    {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\DrinksLogo2White.png",
+      "PackagePath": "staticwebassets\\img\\DrinksLogo2White.png"
+    },
+    {
       "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\avatar.png",
       "PackagePath": "staticwebassets\\img\\avatar.png"
     },
@@ -183,6 +191,14 @@
     {
       "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\default-150x150.png",
       "PackagePath": "staticwebassets\\img\\default-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\drinksLogo.png",
+      "PackagePath": "staticwebassets\\img\\drinksLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\drinksLogoWhite.png",
+      "PackagePath": "staticwebassets\\img\\drinksLogoWhite.png"
     },
     {
       "Id": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\icons.png",

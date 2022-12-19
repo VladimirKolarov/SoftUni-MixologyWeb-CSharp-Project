@@ -18,7 +18,7 @@ namespace MixologyWeb.Areas.Identity.Pages.Account.Manage
         
         public async Task<IActionResult> OnGetAsync()
         {
-            return Redirect("./Manage/Email");
+            return Redirect("./Manage/ChangePassword");
 
         }
 

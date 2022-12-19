@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWuyRVnCB3mXCp1s/tekr398KOmtQ3pws3TYrws7ul2jVFDz9tGfDDYNnpopFuZcAcSjHZvuA9f2pPz4ef+Mcg==",
+  "dgSpecHash": "CATXnn2/BfSbFq0yypE3Mc2LbcnWsziYA8AYAz9EYIL8St9m5wHbE2nMSSWHgn2t+xlvaZKh4kY6mJWZtK9jaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj",
+  "projectFilePath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladimirkolarov\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\vladimirkolarov\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",

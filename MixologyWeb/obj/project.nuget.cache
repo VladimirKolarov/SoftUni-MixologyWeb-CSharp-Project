@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f/MwriWj73QjzvcQU668/JO0xxjk/fbfcGaou8HwRESUHgVCJX4jImOh4PhK61vCaQDiLhbAnEq8zY841OP66g==",
+  "dgSpecHash": "lkwWNo4tXJK0ch7aJrOZW6V3RAvV1qIsPH9gfX9ngc2949BzXV5VyZN67c1t0ZTSdArVmLbCP26XaHZUBzIobQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
+  "projectFilePath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladimirkolarov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vladimirkolarov\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

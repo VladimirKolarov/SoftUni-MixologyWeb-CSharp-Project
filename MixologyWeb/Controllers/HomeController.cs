@@ -16,7 +16,7 @@ namespace MixologyWeb.Controllers
 
         public IActionResult Index()
         {
-            ViewData[MessageConstants.SuccessMessage] = "Great Work!!! ";
+            //ViewData[MessageConstants.SuccessMessage] = "Great Work!!! ";
             return View();
         }
 

@@ -10502,11 +10502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
+      "projectUniqueName": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
       "projectName": "MixologyWeb",
-      "projectPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
+      "projectPath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\MixologyWeb.csproj",
       "packagesPath": "C:\\Users\\vladimirkolarov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\obj\\",
+      "outputPath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladimirkolarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10523,8 +10523,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj": {
-              "projectPath": "C:\\Users\\vladimirkolarov\\source\\repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj"
+            "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj": {
+              "projectPath": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb.Core\\MixologyWeb.Core.csproj"
             }
           }
         }

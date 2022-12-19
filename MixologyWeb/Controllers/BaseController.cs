@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MixologyWeb.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class BaseController : Controller
     {
     }

@@ -1,0 +1,22 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+@*<h1>@ViewData["Title"]</h1>*@
+@{
+    if (@Model.DisplayConfirmAccountLink)
+    {
+<p>
+            Please <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click here</a> to confirm that you are of legal drinking age and you wish to register with this email: <b>@Model.Email</b>
+</p>
+    }
+    else
+    {
+<p>
+        Please check your email to confirm your account.
+</p>
+    }
+}
+

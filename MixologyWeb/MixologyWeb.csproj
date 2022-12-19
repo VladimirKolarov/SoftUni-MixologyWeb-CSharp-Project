@@ -23,4 +23,8 @@
     <ProjectReference Include="..\MixologyWeb.Core\MixologyWeb.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Data\" />
+  </ItemGroup>
+
 </Project>

@@ -14,6 +14,23 @@ namespace MixologyWeb.Infrastructure.Data
         {
             base.OnModelCreating(builder);
 
+            builder.Entity<Cocktail>()
+                    .HasIndex(c => c.Name)
+                    .IsUnique(true);
+
+            builder.Entity<Ingredient>()
+                    .HasIndex(i => i.Name)
+                    .IsUnique(true);
+
+            builder.Entity<Measurement>()
+                    .HasIndex(m => m.Name)
+                    .IsUnique(true);
+
+            builder.Entity<Performer>()
+                    .HasIndex(p => p.Name)
+                    .IsUnique(true);
+
+
             //builder.Entity<Cocktail>()
             //    .HasMany(s => s.Songs)
             //    .WithMany(c => c.Cocktails);

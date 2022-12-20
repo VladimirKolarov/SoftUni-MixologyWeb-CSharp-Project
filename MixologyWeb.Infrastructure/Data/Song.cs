@@ -11,6 +11,9 @@ namespace MixologyWeb.Infrastructure.Data
         [StringLength(100)]
         public string Name { get; set; }
 
+        [Range(0, 3000)]
+        public int YearReleased { get; set; }
+
         [StringLength(2048)]
         public string? ExternalLink { get; set; }
 

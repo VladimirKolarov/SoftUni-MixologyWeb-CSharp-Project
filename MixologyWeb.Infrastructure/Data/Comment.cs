@@ -9,6 +9,10 @@ namespace MixologyWeb.Infrastructure.Data
         public Guid Id { get; set; } = Guid.NewGuid();
 
         [Required]
+        [StringLength(200)]
+        public string AuthorName { get; set; }
+
+        [Required]
         [StringLength(1000)]
         public string Text { get; set; }
 

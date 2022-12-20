@@ -268,6 +268,9 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Cocktails");
                 });
 
@@ -276,6 +279,11 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AuthorName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<Guid>("CocktailId")
                         .HasColumnType("uniqueidentifier");
@@ -317,6 +325,9 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
 
                     b.HasIndex("MeasurementId");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Ingredients");
                 });
 
@@ -357,6 +368,9 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Measurements");
                 });
 
@@ -372,6 +386,9 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.ToTable("Performers");
                 });
@@ -390,6 +407,9 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("YearReleased")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

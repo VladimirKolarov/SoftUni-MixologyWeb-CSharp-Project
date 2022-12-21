@@ -20,11 +20,11 @@ namespace MixologyWeb.Controllers
             return View();
         }
 
-        //[Authorize(Roles = UserConstants.Roles.Administrator)]
-        //public async Task<IActionResult> ManageUsers() 
-        //{
-            
-        //}
+        [Authorize(Roles = UserConstants.Roles.Administrator)]
+        public async Task<IActionResult> ManageUsers()
+        {
+
+        }
 
         public async Task<IActionResult> CreateRole()
         {

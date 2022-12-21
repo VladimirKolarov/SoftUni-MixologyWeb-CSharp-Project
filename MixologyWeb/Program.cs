@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using MixologyWeb.Core.Constants;
 using MixologyWeb.Infrastructure.Data;
+using MixologyWeb.Infrastructure.Data.Identity;
 using MixologyWeb.ModelBinders;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationDbContexts(builder.Configuration);
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews()
     .AddMvcOptions(options => 
     {

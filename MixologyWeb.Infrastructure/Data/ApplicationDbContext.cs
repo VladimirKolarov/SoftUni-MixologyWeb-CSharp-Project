@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MixologyWeb.Infrastructure.Data.Identity;
 
 namespace MixologyWeb.Infrastructure.Data
 {

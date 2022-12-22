@@ -196,6 +196,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_ManageUsersMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW5hZ2VVc2Vyc01lbnVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/Shared/_UserMessages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTWVzc2FnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -210,6 +214,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/User/ManageUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYW5hZ2VVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/User/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vladimirkolarov/Source/Repos/VladimirKolarov/SoftUni-MixologyWeb-CSharp-Project/MixologyWeb/Views/_ViewImports.cshtml]

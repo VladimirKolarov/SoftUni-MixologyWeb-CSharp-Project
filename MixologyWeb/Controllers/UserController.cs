@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using MixologyWeb.Core.Constants;
 using MixologyWeb.Core.Contracts;
 using MixologyWeb.Core.Models;
@@ -23,7 +24,7 @@ namespace MixologyWeb.Controllers
         {
             roleManager = _roleManager;
             userManager = _userManager;
-            userService= _userService;
+            userService = _userService;
         }
 
         public IActionResult Index()
@@ -37,9 +38,41 @@ namespace MixologyWeb.Controllers
             return View(users);
         }
 
-        public async Task<IActionResult> Roles(string id) 
+        public async Task<IActionResult> Roles(string id)
         {
-            return Ok(id);
+            var user = await userService.GetUserById(id);
+            var model = new UserRolesViewModel()
+            {
+                UserId = user.Id,
+                Name = user.UserName
+            };
+
+            ViewBag.RoleItems = roleManager.Roles
+                .ToList()
+                .Select(r => new SelectListItem()
+                {
+                    Text = r.Name,
+                    Value = r.Name,
+                    Selected = userManager.IsInRoleAsync(user, r.Name).Result
+
+                });
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Roles(UserRolesViewModel model)
+        {
+            var user = await userService.GetUserById(model.UserId);
+            var userRoles = await userManager.GetRolesAsync(user);
+
+            await userManager.RemoveFromRolesAsync(user, userRoles);
+            if (model.RoleNames != null && model.RoleNames.Length>0)
+            {
+                await userManager.AddToRolesAsync(user, model.RoleNames);
+            }
+
+            return RedirectToAction(nameof(ManageUsers));
         }
 
         public async Task<IActionResult> Edit(string id)
@@ -67,7 +100,7 @@ namespace MixologyWeb.Controllers
                 ViewData[MessageConstants.ErrorMessage] = "ERROR! User was NOT updated";
             }
 
-            return View(model);
+            return RedirectToAction(nameof(ManageUsers));
         }
 
 

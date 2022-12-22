@@ -1,4 +1,7 @@
-﻿<nav class="mt-2">
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> signInManager;
+
+<nav class="mt-2">
     <ul class="nav-treeview nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
@@ -21,6 +24,12 @@
                 <i class="far fa-circle nav-icon"></i>
                 <p>Contacts</p>
             </a>
+        </li>
+        <li>
+            @if (signInManager.IsSignedIn(User) && User.IsInRole("Administrator"))
+            {
+                <partial name="_ManageUsersMenuPartial" />
+            }
         </li>
     </ul>
 </nav>

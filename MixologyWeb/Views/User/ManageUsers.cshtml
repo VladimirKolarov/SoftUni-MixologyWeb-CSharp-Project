@@ -28,7 +28,6 @@
                         <tr>
                             <th>User</th>
                             <th>Email</th>
-                            <th>Role</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -39,7 +38,6 @@
                             <tr>
                                 <td>@user.Name</td>
                                 <td>@user.Email</td>
-                                <td>Some Role</td>
                                 <td>
                                     <a asp-controller="user" asp-action="edit" asp-route-id="@user.Id" class="btn btn-block btn-info btn-sm">Edit</a>
                                     <a asp-controller="user" asp-action="roles" asp-route-id="@user.Id" class="btn btn-block btn-warning btn-sm">Roles</a>

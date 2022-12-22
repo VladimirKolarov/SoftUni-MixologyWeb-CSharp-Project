@@ -11,12 +11,20 @@ namespace MixologyWeb.Core.Services
     {
         private readonly IApplicationDbRepository repo;
 
+        private readonly UserManager<IdentityUser> userManager;
+
         private readonly char[] separator;
 
-        public UserService(IApplicationDbRepository _repo)
+        public UserService(IApplicationDbRepository _repo, UserManager<IdentityUser> _userManager)
         {
             repo = _repo;
+            userManager = _userManager;
             separator = new char[] { '@' };
+        }
+
+        public async Task<IdentityUser> GetUserById(string id)
+        {
+            return await repo.GetByIdAsync<IdentityUser>(id);
         }
 
         public async Task<UserEditViewModel> GetUserForEdit(string id)
@@ -36,7 +44,7 @@ namespace MixologyWeb.Core.Services
                 .Select(u=> new UserListViewModel()
                 {
                     Email= u.Email,
-                    Name = u.UserName.Split(separator).FirstOrDefault() ?? string.Empty,
+                    Name = u.UserName,
                     Id= u.Id,
                 })
                 .ToListAsync();
@@ -51,7 +59,8 @@ namespace MixologyWeb.Core.Services
             if (user != null)
             {
                 user.UserName = model.Name;
-
+                
+                await userManager.UpdateNormalizedUserNameAsync(user);
                 await repo.SaveChangesAsync();
                 result = true;
             }

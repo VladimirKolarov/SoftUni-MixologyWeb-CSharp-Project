@@ -53,7 +53,7 @@ namespace MixologyWeb.Controllers
         public async Task<IActionResult> Edit(string id, UserEditViewModel model)
         {
 
-            if (!ModelState.IsValid || id !=model.Id)
+            if (!ModelState.IsValid)
             {
                 return View(model);
             }

@@ -26,7 +26,7 @@ namespace MixologyWeb.Infrastructure.Data
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
 
-        public List<IngredientQuantity> IngredientQuantities { get; set; } = new List<IngredientQuantity>();
+        public List<Ingredient> Ingredient { get; set; } = new List<Ingredient>();
 
         public List<Song> Songs { get; set; } = new List<Song>();
     }

@@ -15,12 +15,6 @@ namespace MixologyWeb.Infrastructure.Data
         [StringLength(500)]
         public string? Description { get; set; }
 
-        [Required]
-        public Guid MeasurementId { get; set; }
-
-        [ForeignKey(nameof(MeasurementId))]
-        public Measurement Measurement { get; set; }
-
-        public List<IngredientQuantity> IngredientQuantities { get; set; } = new List<IngredientQuantity>();
+        public List<Cocktail> Cocktails { get; set; } = new List<Cocktail>();
     }
 }

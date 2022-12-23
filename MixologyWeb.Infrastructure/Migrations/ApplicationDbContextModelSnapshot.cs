@@ -22,6 +22,21 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("CocktailIngredient", b =>
+                {
+                    b.Property<Guid>("CocktailsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("IngredientId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("CocktailsId", "IngredientId");
+
+                    b.HasIndex("IngredientId");
+
+                    b.ToTable("CocktailIngredient");
+                });
+
             modelBuilder.Entity("CocktailSong", b =>
                 {
                     b.Property<Guid>("CocktailsId")
@@ -313,9 +328,6 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<Guid>("MeasurementId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -323,55 +335,10 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MeasurementId");
-
                     b.HasIndex("Name")
                         .IsUnique();
 
                     b.ToTable("Ingredients");
-                });
-
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.IngredientQuantity", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("CocktailId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("IngredientId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<double>("Quantity")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CocktailId");
-
-                    b.HasIndex("IngredientId");
-
-                    b.ToTable("IngredientQuantities");
-                });
-
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Measurement", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Name")
-                        .IsUnique();
-
-                    b.ToTable("Measurements");
                 });
 
             modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Performer", b =>
@@ -429,6 +396,21 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                     b.HasIndex("SongsId");
 
                     b.ToTable("PerformerSong");
+                });
+
+            modelBuilder.Entity("CocktailIngredient", b =>
+                {
+                    b.HasOne("MixologyWeb.Infrastructure.Data.Cocktail", null)
+                        .WithMany()
+                        .HasForeignKey("CocktailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MixologyWeb.Infrastructure.Data.Ingredient", null)
+                        .WithMany()
+                        .HasForeignKey("IngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("CocktailSong", b =>
@@ -508,36 +490,6 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
                     b.Navigation("Cocktail");
                 });
 
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Ingredient", b =>
-                {
-                    b.HasOne("MixologyWeb.Infrastructure.Data.Measurement", "Measurement")
-                        .WithMany("Ingredients")
-                        .HasForeignKey("MeasurementId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Measurement");
-                });
-
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.IngredientQuantity", b =>
-                {
-                    b.HasOne("MixologyWeb.Infrastructure.Data.Cocktail", "Cocktail")
-                        .WithMany("IngredientQuantities")
-                        .HasForeignKey("CocktailId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MixologyWeb.Infrastructure.Data.Ingredient", "Ingredient")
-                        .WithMany("IngredientQuantities")
-                        .HasForeignKey("IngredientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Cocktail");
-
-                    b.Navigation("Ingredient");
-                });
-
             modelBuilder.Entity("PerformerSong", b =>
                 {
                     b.HasOne("MixologyWeb.Infrastructure.Data.Performer", null)
@@ -556,18 +508,6 @@ namespace MixologyWeb.Infrastructure.Data.Migrations
             modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Cocktail", b =>
                 {
                     b.Navigation("Comments");
-
-                    b.Navigation("IngredientQuantities");
-                });
-
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Ingredient", b =>
-                {
-                    b.Navigation("IngredientQuantities");
-                });
-
-            modelBuilder.Entity("MixologyWeb.Infrastructure.Data.Measurement", b =>
-                {
-                    b.Navigation("Ingredients");
                 });
 #pragma warning restore 612, 618
         }

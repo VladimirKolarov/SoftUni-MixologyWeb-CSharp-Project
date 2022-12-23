@@ -1,0 +1,51 @@
+﻿@using MixologyWeb.Core.Models;
+@model ContactCardViewModel
+
+<section class="content">
+
+    <div class="card">
+        <div class="card-body row">
+            <div class="col-5 text-center d-flex align-items-center justify-content-center">
+                <div class="">
+                    <h2>Mixology<strong>Web</strong></h2>
+                    <p class="lead mb-5">
+                        123 Random Ave, Onehorse Town<br>
+                        Phone: 555-123-123
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <form id="contactCard" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name">Name</label>
+                        <input asp-for="Name" type="text" id="inputName" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email">E-Mail</label>
+                        <input asp-for="Email" type="email" id="inputEmail" class="form-control">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Subject">Subject</label>
+                        <input asp-for="Subject" type="text" id="inputSubject" class="form-control">
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Message">Message</label>
+                        <textarea asp-for="Message" id="inputMessage" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <button id="edit-submit" type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

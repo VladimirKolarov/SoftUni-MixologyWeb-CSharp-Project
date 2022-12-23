@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using MixologyWeb.Infrastructure.Data.Identity;
 
 namespace MixologyWeb.Infrastructure.Data
 {
@@ -23,10 +22,6 @@ namespace MixologyWeb.Infrastructure.Data
                     .HasIndex(i => i.Name)
                     .IsUnique(true);
 
-            builder.Entity<Measurement>()
-                    .HasIndex(m => m.Name)
-                    .IsUnique(true);
-
             builder.Entity<Performer>()
                     .HasIndex(p => p.Name)
                     .IsUnique(true);
@@ -39,8 +34,6 @@ namespace MixologyWeb.Infrastructure.Data
 
         public DbSet<Cocktail> Cocktails { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
-        public DbSet<IngredientQuantity> IngredientQuantities { get; set; }
-        public DbSet<Measurement> Measurements { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Performer> Performers { get; set; }
         public DbSet<Song> Songs { get; set; }

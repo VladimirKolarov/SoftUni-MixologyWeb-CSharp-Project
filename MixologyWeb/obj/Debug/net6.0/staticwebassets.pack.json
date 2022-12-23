@@ -193,6 +193,10 @@
       "PackagePath": "staticwebassets\\img\\default-150x150.png"
     },
     {
+      "Id": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\defaultDrink.png",
+      "PackagePath": "staticwebassets\\img\\defaultDrink.png"
+    },
+    {
       "Id": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\drinksLogo.png",
       "PackagePath": "staticwebassets\\img\\drinksLogo.png"
     },

@@ -1,0 +1,45 @@
+﻿@using MixologyWeb.Core.Models;
+@{
+}
+
+@model CocktailViewModel
+
+<div class="card bg-light d-flex flex-fill">
+    <div class="card-body pt-0">
+        <div class="row" style="padding-top:30px">
+            <div class="col-7">
+                <h2 class="lead"><b>@Model.Name</b></h2>
+                <ul class="ml-4 mb-0 fa-ul text-muted">
+                    @foreach (var item in Model.Ingredients)
+                    {
+                        <li><span class="fa-li"></span> @item.Name</li>
+                    }
+                </ul>
+                <p></p>
+                <h5>How to prepare:</h5>
+                <p>@Model.PreparationInfo</p>
+                <p></p>
+                <h6>Description:</h6>
+                <p>@Model.Description</p>
+            </div>
+            <div class="col-5 text-center">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="drink-avatar" class="img-circle img-fluid">
+                }
+                else
+                {
+                    <img src="~/img/defaultDrink.png" alt="drink-avatar" class="img-circle img-fluid">
+                }
+
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="text-right">
+            <a href="Details/@Model.Id" class="btn btn-sm btn-primary">
+                Details
+            </a>
+        </div>
+    </div>
+</div>

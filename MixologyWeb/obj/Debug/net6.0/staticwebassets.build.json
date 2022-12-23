@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RHmKxyhJ5yD/5+ZtR/EhqRQXpLxU+Pi/+kM0BflQoIQ=",
+  "Hash": "J4GypDpa8i4tt0nPZjJDZlys57n66gDNjkjevH7hPIk=",
   "Source": "MixologyWeb",
   "BasePath": "_content/MixologyWeb",
   "Mode": "Default",
@@ -1834,6 +1834,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\default-150x150.png"
+    },
+    {
+      "Identity": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\defaultDrink.png",
+      "SourceId": "MixologyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\",
+      "BasePath": "_content/MixologyWeb",
+      "RelativePath": "img/defaultDrink.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\defaultDrink.png"
     },
     {
       "Identity": "C:\\Users\\vladimirkolarov\\Source\\Repos\\VladimirKolarov\\SoftUni-MixologyWeb-CSharp-Project\\MixologyWeb\\wwwroot\\img\\drinksLogo.png",
